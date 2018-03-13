@@ -39,7 +39,7 @@ Inside the container:
 wget http://plantcv.readthedocs.io/en/latest/img/tutorial_images/vis/original_image.jpg -O /workspace/examples/input/sample0.jpg
 
 #Run the VIS Pipeline tutorial
-cd examples
+cd /workspace/examples
 python vis_tutorial.py -i ./input/sample0.jpg -o ./output -r result.txt -w True
 ```
 Outcomes are stored in ```/workspace/examples/output```.
