@@ -31,7 +31,9 @@ sudo chmod u+x PlantCV_XQuartz.sh
 #Create a container PlantCV using the docker image plant_cv
 ./PlantCV_XQuartz.sh 
 ```
-**The following procedures are for running [Tutorial: VIS Image Pipeline](http://plantcv.readthedocs.io/en/latest/vis_tutorial/)**. Inside the container, 
+**The following procedures are for running [Tutorial: VIS Image Pipeline](http://plantcv.readthedocs.io/en/latest/vis_tutorial/)**. 
+
+Inside the container, 
 ```
 #Download the sample image from the tutorial
 wget http://plantcv.readthedocs.io/en/latest/img/tutorial_images/vis/original_image.jpg -O /workspace/examples/input/sample0.jpg
