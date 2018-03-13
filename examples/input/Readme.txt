@@ -1,1 +1,1 @@
-Save your input image files here
+Put your input image files here
